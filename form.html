@@ -3,16 +3,53 @@
     <head>
         <meta charset="UTF-8">
         <title>Register</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="png" href="images/logo.png">
     </head>
 
-    <body>
+    <body style="text-align: center;">
         <h1>Register Today!</h1>
 
         <form>
-            <label>First Name: </label><br>
+            <label>First Name: </label>
             <input type="text" id="fname" name="fname"><br>
-            <label>Last Name: </label><br>
+            <label>Last Name: </label>
             <input type="text" id="lname" name="lname"><br>
+            <br>
+
+            <label>Gross Income:</label>
+            <input type="number" id="salary" name="salary"><br>
+            <label>per: </label>
+            <input type="radio" id="salary-period" name="salary-period" value="hour">
+            <label>Hour &nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" id="salary-period" name="salary-period" value="day">
+            <label>Day &nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" id="salary-period" name="salary-period" value="week">
+            <label>Week &nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" id="salary-period" name="salary-period" value="2 weeks">
+            <label>2 Weeks &nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" id="salary-period" name="salary-period" value="month">
+            <label>Month &nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" id="salary-period" name="salary-period" value="year">
+            <label>Year</label><br>
+            <br>
+
+            <label>Place of Work</label>
+            <select id="province" name="province">
+                <option value="alberta">Alberta</option>
+                <option value="bc">British Columbia</option>
+                <option value="manitoba">Manitoba</option>
+                <option value="nb">New Brunswick</option>
+                <option value="nl">Newfoundland and Labrador</option>
+                <option value="nt">Northwest Territories</option>
+                <option value="ns">Nova Scotia</option>
+                <option value="nunavut">Nunavut</option>
+                <option value="ontario">Ontario</option>
+                <option value="pei">Prince Edward Island</option>
+                <option value="quebec">Quebec</option>
+                <option value="saska">Saskatchewan</option>
+                <option value="yukon">Yukon</option>
+            </select>
         </form>
     </body>
 </html>
