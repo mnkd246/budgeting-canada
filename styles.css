@@ -25,3 +25,25 @@
 h1, h2 {
     text-align: center;
 }
+
+.main{
+    font-size:larger
+}
+
+.img-left {
+    float: left;
+    height: 500px;
+    width: auto;
+}
+
+/*
+ul{
+    margin:0;
+    padding:0 20px;
+  } 
+  ul li    {
+    padding:0;
+    width:150px;
+    margin:10px 0;
+  }
+  */
